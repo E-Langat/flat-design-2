@@ -59,7 +59,7 @@ li img {
 #dlinks {
     font-size: 16px;
     display: block;
-    width: 100px;
+    width: 130px;
     margin: 7px 15px;
 }
 
@@ -67,7 +67,7 @@ li img {
     display: block;
 }
 
-.dropdown:hover #dlinks {
+.dropdown:hover .dif {
     border-bottom: 1px solid rgb(150, 150, 150);
 }
 
@@ -88,10 +88,22 @@ li img {
     text-align: left;
     display: block;
     margin-top: 10px;
-    border-bottom: 1px solid gray;
     margin: 10px 15px;
+}
+
+.diff {
+    border-bottom: 1px solid gray;
 }
 
 .marketing:hover .marketing-dropdown {
     display: block;
+}
+
+#dlinks:hover #greater {
+    color: whitesmoke;
+}
+
+#greater {
+    color: rgb(13, 71, 17);
+    margin-left: 5px;
 }
